@@ -12,3 +12,5 @@ Windows
 ```
 git clone https://github.com/mpu69/nvim_config.git %userprofile%\AppData\Local\nvim\ 
 ```
+
+!["xdd"](https://i.ibb.co/6t11J6v/mini-yui.png)
