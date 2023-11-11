@@ -25,4 +25,7 @@ vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
 
+vim.o.timeout = true
+vim.o.timeoutlen = 300
+
 vim.g.neoformat_try_node_exe = 1
