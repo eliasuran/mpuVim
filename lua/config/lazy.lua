@@ -25,6 +25,7 @@ local plugins = {
   "kylechui/nvim-surround",
   "sbdchd/neoformat",
   "andweeb/presence.nvim",
+  "leafOfTree/vim-svelte-plugin",
   { "folke/which-key.nvim", event = "VeryLazy", opts = {} },
   { 'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' }}
 }
