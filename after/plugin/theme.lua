@@ -1,5 +1,6 @@
-require("catppuccin").setup({
-	flavour = "frappe"
+require('rose-pine').setup({
+	variant = 'moon', -- auto / main / moon / dawn
+  disable_background = true
 })
 
-vim.cmd.colorscheme "catppuccin"
+vim.cmd('colorscheme rose-pine')
