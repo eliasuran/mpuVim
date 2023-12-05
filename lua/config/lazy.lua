@@ -14,7 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   { 'rose-pine/neovim', name = 'rose-pine' }, -- color scheme
+  "github/copilot.vim",
   "nvim-treesitter/nvim-treesitter",
+  'christoomey/vim-tmux-navigator',
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
