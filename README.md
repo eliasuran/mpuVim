@@ -31,7 +31,7 @@
   
   [Introduction](#-introduction) |
   [Installation](#-installation) |
-  [Quickstart](#-quickstart) |
+  [Quickstart](#%EF%B8%8F-quickstart) |
   [Plugins](#-plugins) |
   [Guidelines](#-guidelines) |
   [Support](#-support)
