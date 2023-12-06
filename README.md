@@ -91,11 +91,11 @@ nvim
 <h3>Aaaaand you're in. You now have a fully configured Neovim ready to go. Realistically, you don't have to do any more configuration.</h3>
 
 <h4>The most important keybinds/notes to get started</h4>
-* Leader key = Space
+* The leader key is set to Space by default
 
-If you want to learn what plugins are used, reference [#plugins](#plugins).
+If you want to learn what plugins are used, reference [#plugins](#-plugins).
 
-To get some general guidelines on how to further configure and customize mpuVim to your liking, reference #guidelines.
+To get some general guidelines on how to further configure and customize mpuVim to your liking, reference [#guidelines](-#guidelines).
 
 ---
 
@@ -104,6 +104,28 @@ To get some general guidelines on how to further configure and customize mpuVim 
 ---
 
 ## 📘 Guidelines
+
+Project setup
+<pre>
+~/.config/nvim
+├── lua
+│   └── config
+│       ├── init.lua
+│       ├── lazy.lua
+│       ├── options.lua
+│       └── remaps.lua
+├── after   
+│   └── plugin
+│       ├── cmp.lua
+│       ├── indent-blankline.lua
+│       ├── lsp.lua
+│       ├── neoformat.lua
+│       ├── telescope.lua
+│       ├── theme.lua
+│       └── treesitter.lua
+│       
+└── init.lua
+</pre>
 
 ---
 
