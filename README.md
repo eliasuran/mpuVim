@@ -29,7 +29,7 @@
 
 <h3 align="center">
   
-  [Showcase](#showcase) |
+  [Introduction](#introduction) |
   [Installation](#installation) |
   [Quickstart](#quickstart) |
   [Plugins](#plugins) |
@@ -40,7 +40,7 @@
 
 ---
 
-## Showcase
+## 🏁 Introduction
 
 <p align="left">
   mpuVim is a simple, lightweight configuration of Neovim. 
@@ -61,7 +61,7 @@
 
 ---
 
-## Installation
+## 🚀 Installation
 
 NOTE! Make sure you have Neovim installed and that Node is installed on your system, since it's requires for certain plugins.
 
@@ -80,17 +80,32 @@ git clone https://github.com/mpu69/nvim_config.git %userprofile%\AppData\Local\n
 
 ---
 
-## Quickstart
+## ⚡️ Quickstart
 
---
+Once you have completed the installation, open Neovim in your terminal by running
 
-## Plugins
+```
+nvim
+```
+
+<h3>Aaaaand you're in. You now have a fully configured Neovim ready to go. Realistically, you don't have to do any more configuration.</h3>
+
+<h4>The most important keybinds/notes to get started</h4>
+* Leader key = Space
+
+If you want to learn what plugins are used, reference [#plugins](#plugins).
+
+To get some general guidelines on how to further configure and customize mpuVim to your liking, reference #guidelines.
 
 ---
 
-## Guidelines
+## 🧩 Plugins
 
 ---
 
-## Support
+## 📘 Guidelines
+
+---
+
+## 🤝 Support
 
