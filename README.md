@@ -27,9 +27,14 @@
 
 ---
 
-<h2 align="center">Jump to</h2>
-
-[Installation](#installation)
+<h3 align="center">
+  
+  [Showcase](#showcase)
+  [Installation](#installation)
+  [Plugins](#plugins)
+  [Support](#support)
+  
+</h3>
 
 ---
 
