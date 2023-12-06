@@ -54,7 +54,7 @@
   If you are tired of bloated, slow text editors and want a simple and easily customizable Neovim configuration, mpuVim is for you!
 
 <p align="center">
-  <img src="https://i.ibb.co/4N4QZS4/image.png">
+  <img src="https://i.ibb.co/x7bYXp1/image.png">
 </p>
   
 </p>
@@ -91,7 +91,15 @@ nvim
 <h3>Aaaaand you're in. You now have a fully configured Neovim ready to go. Realistically, you don't have to do any more configuration.</h3>
 
 <h4>The most important keybinds/notes to get started</h4>
+
+
 * The leader key is set to Space by default
+
+* By clicking the leader key and waiting
+
+* You can access Telescope, a fuzzy finder for all files in your directory, by clicking leader + ff
+
+* You can pull up Netrw to view the file tree by clicking leader + ft
 
 If you want to learn what plugins are used, reference [#plugins](#-plugins).
 
@@ -101,11 +109,46 @@ To get some general guidelines on how to further configure and customize mpuVim 
 
 ## 🧩 Plugins
 
+
+* The theme is set up with _Rose Pine_, and is set to _moon_ by default - https://github.com/rose-pine/neovim
+
+* Quickly find files anywhere, anytime with Telescope - https://github.com/nvim-telescope/telescope.nvim
+
+* Syntax highlighting with Treesitter - https://github.com/nvim-treesitter/nvim-treesitter
+
+* Package manager for LSP and DAP servers, linters and formatters - https://github.com/williamboman/mason.nvim
+
+* Configs for Nvim LSP client - https://github.com/neovim/nvim-lspconfig
+
+* Bridging mason and lspconfig - https://github.com/williamboman/mason-lspconfig.nvim
+
+* Ai pair-programming in Neovim with _Github_ _Copilot_ - https://github.com/github/copilot.vim
+
+* Seamless synergy with Tmux - https://github.com/christoomey/vim-tmux-navigator
+
+* Quick and accurate auto-completion with nvim-cmp - https://github.com/hrsh7th/nvim-cmp + https://github.com/hrsh7th/cmp-nvim-lsp
+
+* Increase productivity with useful snippets from LuaSnip - https://github.com/L3MON4D3/LuaSnip
+
+* Must-have Go features right in your IDE with vim-go - https://github.com/fatih/vim-go
+
+* Quickly change surrounding tags and marks with the help of nvim-surround - https://github.com/kylechui/nvim-surround
+
+* Must have code formatting with Prettier using Neoformat - https://github.com/sbdchd/neoformat
+
+* Flex that your are using Neovim on discord with rich presence - https://github.com/andweeb/presence.nvim
+
+* Support for Svelte - https://github.com/leafOfTree/vim-svelte-plugin
+
+* Essential indent lines - https://github.com/lukas-reineke/indent-blankline.nvim
+
+* Know possible commands after pressing leader key - https://github.com/folke/which-key.nvim
+
 ---
 
 ## 📘 Guidelines
 
-Project setup
+Refer to this project setup when unsure of where a file is or should be located
 <pre>
 ~/.config/nvim
 ├── lua
