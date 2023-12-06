@@ -29,9 +29,11 @@
 
 <h3 align="center">
   
-  [Showcase](#showcase)
-  [Installation](#installation)
-  [Plugins](#plugins)
+  [Showcase](#showcase) |
+  [Installation](#installation) |
+  [Quickstart](#quickstart) |
+  [Plugins](#plugins) |
+  [Guidelines](#guidelines) |
   [Support](#support)
   
 </h3>
@@ -40,9 +42,31 @@
 
 ## Showcase
 
+<p align="left">
+  mpuVim is a simple, lightweight configuration of Neovim. 
+  
+  Out of the box, it provides all the necessary features you would expect in your text editor, like syntax highlighting, linting, auto-completion and quality of life plugins like telescope. Of course, also equipped with the best remaps and settings.
+  
+  By default, mpuVim provides you with the language server for the most popular languages, but using Mason, you can install lsp's for any language you would like. (Read more about Mason in guidelines)
+
+  For theme, mpuVim uses Rose Pine Moon with a transparent background by default, allowing for you to use your favorite background in the terminal. However, anything is customizable. (Read more about customizing the config yourself in guidelines)
+
+  If you are tired of bloated, slow text editors and want a simple and easily customizable Neovim configuration, mpuVim is for you!
+
+<p align="center">
+  <img src="https://i.ibb.co/4N4QZS4/image.png">
+</p>
+  
+</p>
+
 ---
 
 ## Installation
+
+NOTE! Make sure you have Neovim installed and that Node is installed on your system, since it's requires for certain plugins.
+
+To install mpuVim on your system, simply run the command appropriate for your operating system. Note that if you already have configuration of Neovim in your ~/.config/nvim folder, make sure to back it up. 
+
 Linux & MacOS
 ```
 git clone https://github.com/mpu69/nvim_config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
@@ -56,7 +80,15 @@ git clone https://github.com/mpu69/nvim_config.git %userprofile%\AppData\Local\n
 
 ---
 
+## Quickstart
+
+--
+
 ## Plugins
+
+---
+
+## Guidelines
 
 ---
 
