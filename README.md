@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <h3>The fastest, most lightweight Neovim configuration, for you to spend more time writing beutiful code.</h3>
+  <h3>The fastest, lightweight-est Neovim configuration, for you to spend more time writing beutiful code.</h3>
   
   <p>
     <a href="https://github.com/mpu69/mpuVim/commits">
@@ -33,7 +33,7 @@
   [Installation](#-installation) |
   [Quickstart](#%EF%B8%8F-quickstart) |
   [Plugins](#-plugins) |
-  [Guidelines](#-guidelines) |
+  [Extending](#-extend-your-neovim-experience) |
   [Support](#-support)
   
 </h3>
@@ -146,7 +146,11 @@ To get some general guidelines on how to further configure and customize mpuVim 
 
 ---
 
-## 📘 Guidelines
+## 📘 Extend your Neovim Experience
+
+This section will cover how to extend mpuVim with your own plugins, and how to further customize and configure mpuVim to your own liking.
+
+Due to that, this section is aimed towards more experienced Neovim users who already know a thing or two about Neovim and the ecosystem
 
 Refer to this project setup when unsure of where a file is or should be located
 <pre>
