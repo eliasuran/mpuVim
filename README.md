@@ -29,12 +29,12 @@
 
 <h3 align="center">
   
-  [Introduction](#introduction) |
-  [Installation](#installation) |
-  [Quickstart](#quickstart) |
-  [Plugins](#plugins) |
-  [Guidelines](#guidelines) |
-  [Support](#support)
+  [Introduction](#🏁_introduction) |
+  [Installation](#🚀_installation) |
+  [Quickstart](#⚡️_quickstart) |
+  [Plugins](#🧩_plugins) |
+  [Guidelines](#📘_guidelines) |
+  [Support](#🤝_support)
   
 </h3>
 
