@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <h3>The fastest, lightweight-est Neovim configuration, for you to spend more time writing beutiful code.</h3>
+  <h3>The fastest, lightweight-est Neovim configuration, for you to spend more time writing beautiful code.</h3>
   
   <p>
     <a href="https://github.com/mpu69/mpuVim/commits">
@@ -148,6 +148,8 @@ To get some general guidelines on how to further configure and customize mpuVim 
 
 ## 📘 Extend your Neovim Experience
 
+### Heads up!
+
 This section will cover how to extend mpuVim with your own plugins, and how to further customize and configure mpuVim to your own liking.
 
 Due to that, this section is aimed towards more experienced Neovim users who already know a thing or two about Neovim and the ecosystem
@@ -174,7 +176,23 @@ Refer to this project setup when unsure of where a file is or should be located
 └── init.lua
 </pre>
 
+### Toggle background
+
+The thing most people would possibly like to change, is the background being transparent.
+
+You can toggle this on and off by navigating to _after/plugin/theme.lua_, and changing the _disable_background_ to _false_.
+
+### Adding or removing plugins
+
+All of mpuVim's plugins are in the _lua/config/lazy.lua_ file, and under _local_ _plugins_.
+
+To remove or add a plugin, simply remove or add it from the list respectively. Since mpuVim is using the _lazy_ package manager, everything that is needed for a plugin is a string with the link.
+
+When adding or removing a plugin, make sure to exit and reopen Neovim, and you will see lazy downloading it automatically.
+
 ---
 
 ## 🤝 Support
+
+You can support mpuVim by giving it a star at https://github.com/mpu69/mpuVim <3
 
