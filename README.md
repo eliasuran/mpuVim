@@ -148,7 +148,19 @@ To get some general guidelines on how to further configure and customize mpuVim 
 
 ## 📘 Extend your Neovim Experience
 
-### Heads up!
+<h3 align="center">
+  
+  [Heads Up!](#heads-up) |
+  [Toggle background](#toggle-background) |
+  [Plugins](#adding-or-removing-plugins) |
+  [Remaps](#remaps) |
+  [Settings](#settings)
+  
+</h3>
+
+---
+
+### Heads up
 
 This section will cover how to extend mpuVim with your own plugins, and how to further customize and configure mpuVim to your own liking.
 
@@ -189,6 +201,11 @@ All of mpuVim's plugins are in the _lua/config/lazy.lua_ file, and under _local_
 To remove or add a plugin, simply remove or add it from the list respectively. Since mpuVim is using the _lazy_ package manager, everything that is needed for a plugin is a string with the link.
 
 When adding or removing a plugin, make sure to exit and reopen Neovim, and you will see lazy downloading it automatically.
+
+### Remaps
+
+
+### Settings
 
 ---
 
