@@ -19,9 +19,6 @@
     <a href="https://github.com/mpu69/mpuVim">
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/mpu69/mpuVim?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
     </a>
-     <a href="https://twitter.com/intent/follow?screen_name=mpu006">
-      <img alt="follow on Twitter" src="https://img.shields.io/twitter/follow/mpu006?style=for-the-badge&logo=twitter&color=8aadf3&logoColor=D9E0EE&labelColor=302D41" />
-    </a>
   </p>
 </div>
 
