@@ -60,9 +60,9 @@
 
 ## 🚀 Installation
 
-NOTE! Make sure you have Neovim installed and that Node is installed on your system, since it's requires for certain plugins.
+NOTE! Make sure you have Neovim installed and that Node is installed on your system, since it's required for certain plugins.
 
-To install mpuVim on your system, simply run the command appropriate for your operating system. Note that if you already have configuration of Neovim in your ~/.config/nvim folder, make sure to back it up. 
+To install mpuVim on your system, simply run the command appropriate for your operating system. Make sure to back up an existing config in ~/.config/nvim if you have one.
 
 Linux & MacOS
 ```
