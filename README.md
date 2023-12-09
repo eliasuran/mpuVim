@@ -92,7 +92,7 @@ nvim
 
 * The leader key is set to Space by default
 
-* By clicking the leader key and waiting
+* By clicking the leader key, after a bit a menu with possible commands will appear, use this to check for possible commands and key mappings for them.
 
 * You can access Telescope, a fuzzy finder for all files in your directory, by clicking leader + ff
 
@@ -100,7 +100,7 @@ nvim
 
 If you want to learn what plugins are used, reference [#plugins](#-plugins).
 
-To get some general guidelines on how to further configure and customize mpuVim to your liking, reference [#guidelines](-#guidelines).
+To extend and learn how to further configure and customize mpuVim to your liking, reference [#extending](#-extend-your-neovim-experience).
 
 ---
 
@@ -139,7 +139,7 @@ To get some general guidelines on how to further configure and customize mpuVim 
 
 * Essential indent lines - https://github.com/lukas-reineke/indent-blankline.nvim
 
-* Know possible commands after pressing leader key - https://github.com/folke/which-key.nvim
+* Menu with available commands after pressing leader key - https://github.com/folke/which-key.nvim
 
 ---
 
@@ -150,6 +150,7 @@ To get some general guidelines on how to further configure and customize mpuVim 
   [Heads Up!](#heads-up) |
   [Toggle background](#toggle-background) |
   [Plugins](#adding-or-removing-plugins) |
+  [Configure plugins](#configuring-plugins) |
   [Remaps](#remaps) |
   [Settings](#settings)
   
@@ -198,6 +199,14 @@ All of mpuVim's plugins are in the _lua/config/lazy.lua_ file, and under _local_
 To remove or add a plugin, simply remove or add it from the list respectively. Since mpuVim is using the _lazy_ package manager, everything that is needed for a plugin is a string with the link.
 
 When adding or removing a plugin, make sure to exit and reopen Neovim, and you will see lazy downloading it automatically.
+
+### Configuring plugins
+
+Configuration for any plugin is done in the _after/plugin_ directory. Each file represents the configuration of a single plugin. 
+
+To edit the configuration of an already configured plugin, navigate to its configuration file in the plugin directory. From there, edit it as you please, and it will be updated once you close and reopen Neovim.
+
+When adding your own configuration for a plugin, just create a new file and include any configuration you might like. If the file is in _after/plugin_, it will automatically apply to the installed plugin. As simple as that!
 
 ### Remaps
 
