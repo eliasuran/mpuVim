@@ -60,7 +60,11 @@
 
 ## 🚀 Installation
 
-NOTE! Make sure you have Neovim installed and that Node is installed on your system, since it's required for certain plugins.
+<h4>Requirements</h4>
+
+
+* Neovim installed
+* Node installed
 
 To install mpuVim on your system, simply run the command appropriate for your operating system. Make sure to back up an existing config in ~/.config/nvim if you have one.
 
@@ -147,12 +151,12 @@ To extend and learn how to further configure and customize mpuVim to your liking
 
 <h3 align="center">
   
-  [Heads Up!](#heads-up) |
   [Toggle background](#toggle-background) |
   [Plugins](#adding-or-removing-plugins) |
   [Configure plugins](#configuring-plugins) |
   [Remaps](#remaps) |
-  [Settings](#settings)
+  [Settings](#settings) |
+  [Extra](#extra) 
   
 </h3>
 
@@ -210,8 +214,24 @@ When adding your own configuration for a plugin, just create a new file and incl
 
 ### Remaps
 
+All remaps can be found in the _lua/config/remaps.lua_ file.
+
+Adding, removing or editing key mappings in this file will automatically apply it to Neovim.
+
 
 ### Settings
+
+All settings can be found in _lua/config/options.lua_.
+
+Like with key mappings, adding, removing or changing settings in this file will apply them to all of Neovim automatically.
+
+
+## Extra
+
+<h4>Here are some extra stuff I wanted to include about some useful stuff I also use</h4>
+
+* Tmux works really well with Neovim since you only need the terminal, and is perfect for a tiling window manager.
+* Tmux integration is done really well with the vim-tmux-navigator plugin, so would highly recommend.
 
 ---
 
