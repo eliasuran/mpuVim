@@ -228,7 +228,6 @@ Like with key mappings, adding, removing or changing settings in this file will 
 
 ## Extra
 
-<h4>Here are some extra stuff I wanted to include about some useful stuff I also use</h4>
 
 * Tmux works really well with Neovim since you only need the terminal, and is perfect for a tiling window manager.
 * Tmux integration is done really well with the vim-tmux-navigator plugin, so would highly recommend.
