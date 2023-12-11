@@ -27,6 +27,7 @@
 <h3 align="center">
   
   [Introduction](#-introduction) |
+  [Features](#-features) |
   [Installation](#-installation) |
   [Quickstart](#%EF%B8%8F-quickstart) |
   [Plugins](#-plugins) |
@@ -55,6 +56,16 @@
 </p>
   
 </p>
+
+---
+
+## ✨ Features
+
+* 🔥 Receive a full fledged IDE with one single command
+* 💨 Blazingly fast
+* 🛠️ Easily customizable and extendable
+* 🧩 Plethora of useful plugins preinstalled
+* ⚙️ Well chosen default settings and keymaps
 
 ---
 
@@ -214,16 +225,17 @@ When adding your own configuration for a plugin, just create a new file and incl
 
 ### Remaps
 
-All remaps can be found in the _lua/config/remaps.lua_ file.
-
-Adding, removing or editing key mappings in this file will automatically apply it to Neovim.
+* mpuVim uses which-key.nvim to help you remember keymaps.
+* Pressing any key will bring up a popup of possible commands following that key.
+* All remaps can be found in the _lua/config/remaps.lua_ file.
+* Adding, removing or editing key mappings in this file will automatically apply it to Neovim.
 
 
 ### Settings
 
-All settings can be found in _lua/config/options.lua_.
+* All settings can be found in _lua/config/options.lua_.
 
-Like with key mappings, adding, removing or changing settings in this file will apply them to all of Neovim automatically.
+* Like with key mappings, adding, removing or changing settings in this file will apply them to all of Neovim automatically.
 
 
 ## Extra
