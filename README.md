@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <h3>The fastest, lightweight-est Neovim configuration, for you to spend more time writing beautiful code.</h3>
+  <h3>A fast, lightweight and easy-to-use Neovim configuration, for you to spend more time writing beautiful code.</h3>
   
   <p>
     <a href="https://github.com/mpu69/mpuVim/commits">
