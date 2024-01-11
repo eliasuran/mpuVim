@@ -248,5 +248,5 @@ When adding your own configuration for a plugin, just create a new file and incl
 
 ## 🤝 Support
 
-You can support mpuVim by giving it a star at https://github.com/mpu69/mpuVim <3
+You can support mpuVim by giving it a star at https://github.com/eliasuran/mpuVim <3
 
