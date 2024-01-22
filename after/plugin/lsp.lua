@@ -10,6 +10,8 @@ require("mason-lspconfig").setup({
     'svelte',
     'tsserver',
     'gopls',
+    'emmet_ls',
+    'astro'
   }
 })
 
@@ -57,8 +59,19 @@ require("lspconfig").gopls.setup({
    capabilities = capabilities,
 })
 
+require('lspconfig').emmet_ls.setup({
+  capabilities = capabilities,
+})
+
+require('lspconfig').astro.setup({
+  capabilities = capabilities,
+})
+
+
 -- Mappings
 
-vim.keymap.set('n', 'gD', vim.lsp.buf.declaration)
-vim.keymap.set('n', 'gd', vim.lsp.buf.definition)
+vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
 vim.keymap.set('n', 'K', vim.lsp.buf.hover)
+vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help)
+vim.keymap.set('n', '<C-t>', vim.lsp.buf.type_definition)
