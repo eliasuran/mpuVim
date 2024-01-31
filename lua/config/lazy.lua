@@ -13,7 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  { 'rose-pine/neovim', name = 'rose-pine' }, -- color scheme
+  "rebelot/kanagawa.nvim",
   "github/copilot.vim",
   "nvim-treesitter/nvim-treesitter",
   'christoomey/vim-tmux-navigator',
@@ -30,7 +30,11 @@ local plugins = {
   "leafOfTree/vim-svelte-plugin",
   "lukas-reineke/indent-blankline.nvim",
   { "folke/which-key.nvim", event = "VeryLazy", opts = {} },
-  { 'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' }}
+  { 'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' }},
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  }
 }
 
 local opts = {}
