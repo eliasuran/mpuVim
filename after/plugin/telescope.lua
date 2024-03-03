@@ -6,3 +6,6 @@ vim.keymap.set('n', '<leader>a', builtin.oldfiles, { desc = '[a] Find recently o
 vim.keymap.set("n", "<leader>sq", function()
 	builtin.grep_string({ search = vim.fn.input("Grep > ") });
 end, { desc = "[Search] [Q]word" })
+
+-- search diagnostics
+vim.api.nvim_set_keymap('n', '<leader>fd', ':Telescope diagnostics<Enter>', { noremap = true, silent = true, desc = '[F]ind [d]iagnostics' })
