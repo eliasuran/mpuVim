@@ -14,7 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   "rebelot/kanagawa.nvim",
-  "github/copilot.vim",
   "nvim-treesitter/nvim-treesitter",
   'christoomey/vim-tmux-navigator',
   "williamboman/mason.nvim",
@@ -29,6 +28,14 @@ local plugins = {
   "andweeb/presence.nvim",
   "leafOfTree/vim-svelte-plugin",
   "lukas-reineke/indent-blankline.nvim",
+  'neoclide/coc.nvim',
+  {
+    "rust-lang/rust.vim",
+    ft = "rust",
+    init = function ()
+      vim.g.rustfmt_autosave = 1
+    end
+  },
   { "folke/which-key.nvim", event = "VeryLazy", opts = {} },
   { 'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' }},
   {
