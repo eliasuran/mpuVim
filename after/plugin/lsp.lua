@@ -11,7 +11,8 @@ require("mason-lspconfig").setup({
     'tsserver',
     'gopls',
     'emmet_ls',
-    'astro'
+    'astro',
+    "nimls"
   }
 })
 
@@ -68,6 +69,9 @@ require('lspconfig').astro.setup({
   capabilities = capabilities,
 })
 
+require('lspconfig').nimls.setup({
+  capabilities = capabilities,
+})
 
 -- Mappings
 
