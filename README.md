@@ -50,9 +50,9 @@
   For theme, mpuVim uses kanagawa wave by default. However, anything is customizable. (Read more about customizing the config yourself in guidelines)
 
   If you are tired of bloated, slow text editors and want a simple and easily customizable Neovim configuration, mpuVim is for you!
-
+  
 <p align="center">
-  <img src="https://i.ibb.co/x7bYXp1/image.png">
+  <img src="https://github.com/eliasuran/mpuVim/assets/118540201/d153ae53-88cd-40a2-bcec-a6b690e4abd1">
 </p>
   
 </p>
