@@ -47,7 +47,7 @@
   
   By default, mpuVim provides you with the language server for the most popular languages, but using Mason, you can install lsp's for any language you would like. (Read more about Mason in guidelines)
 
-  For theme, mpuVim uses Rose Pine Moon with a transparent background by default, allowing for you to use your favorite background in the terminal. However, anything is customizable. (Read more about customizing the config yourself in guidelines)
+  For theme, mpuVim uses kanagawa wave by default. However, anything is customizable. (Read more about customizing the config yourself in guidelines)
 
   If you are tired of bloated, slow text editors and want a simple and easily customizable Neovim configuration, mpuVim is for you!
 
@@ -122,7 +122,7 @@ To extend and learn how to further configure and customize mpuVim to your liking
 ## 🧩 Plugins
 
 
-* The theme is set up with _Rose Pine_, and is set to _moon_ by default - https://github.com/rose-pine/neovim
+* The theme is set up with _kanagawa_, and is set to _wave_ by default - https://github.com/rebelot/kanagawa.nvim
 
 * Quickly find files anywhere, anytime with Telescope - https://github.com/nvim-telescope/telescope.nvim
 
@@ -201,11 +201,11 @@ Refer to this project setup when unsure of where a file is or should be located
 └── init.lua
 </pre>
 
-### Toggle background
+### Changing theme
 
-The thing most people would possibly like to change, is the background being transparent.
+Everything related to the theme is located in _after/plugin/theme.lua_.
 
-You can toggle this on and off by navigating to _after/plugin/theme.lua_, and changing the _disable_background_ to _false_.
+When changing theme, configure it in this file, but remember to add the new theme's plugin to _lua/config/lazy.lua_ and removing kanagawa which would be unused. (How this is done is explained under)
 
 ### Adding or removing plugins
 
