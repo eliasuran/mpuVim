@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="333" src="https://i.ibb.co/bb03ZZr/MpuVim.png">
+  <img width="300" height="200" src="https://github.com/eliasuran/mpuVim/assets/118540201/b86ad9f0-6d4f-4867-bc06-d11ab540353d">
 </p>
 
 <div align="center">
