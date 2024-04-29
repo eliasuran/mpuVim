@@ -26,7 +26,6 @@ local plugins = {
   "kylechui/nvim-surround",
   "sbdchd/neoformat",
   "andweeb/presence.nvim",
-  "leafOfTree/vim-svelte-plugin",
   "lukas-reineke/indent-blankline.nvim",
   'neoclide/coc.nvim',
   {

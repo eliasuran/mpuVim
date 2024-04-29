@@ -73,6 +73,10 @@ require('lspconfig').nimls.setup({
   capabilities = capabilities,
 })
 
+require("lspconfig").cssls.setup({
+  capabilities = capabilities
+})
+
 -- Mappings
 
 vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
@@ -80,6 +84,8 @@ vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
 vim.keymap.set('n', 'K', vim.lsp.buf.hover)
 vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help)
 vim.keymap.set('n', '<C-t>', vim.lsp.buf.type_definition)
+
+vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 
 vim.keymap.set("n", "ge", vim.diagnostic.goto_next, { desc = "Go to next diagnostic message ([E]rror message)"})
 vim.keymap.set("n", "gE", vim.diagnostic.open_float, { desc = "Show diagnostic message"})
