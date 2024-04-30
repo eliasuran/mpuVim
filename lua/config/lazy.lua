@@ -25,6 +25,7 @@ local plugins = {
   "kylechui/nvim-surround",
   "sbdchd/neoformat",
   "lukas-reineke/indent-blankline.nvim",
+  "L3MON4DE/LuaSnip",
   {
     "rust-lang/rust.vim",
     ft = "rust",
