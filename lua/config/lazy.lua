@@ -21,13 +21,10 @@ local plugins = {
   "neovim/nvim-lspconfig",
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-nvim-lsp",
-  "L3MON4D3/LuaSnip",
   "fatih/vim-go",
   "kylechui/nvim-surround",
   "sbdchd/neoformat",
-  "andweeb/presence.nvim",
   "lukas-reineke/indent-blankline.nvim",
-  'neoclide/coc.nvim',
   {
     "rust-lang/rust.vim",
     ft = "rust",
@@ -40,6 +37,12 @@ local plugins = {
   {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
+  },
+  {
+    'stevearc/oil.nvim',
+    opts = {},
+    -- Optional dependencies
+    dependencies = { "nvim-tree/nvim-web-devicons" },
   }
 }
 
