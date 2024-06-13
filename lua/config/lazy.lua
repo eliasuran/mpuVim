@@ -15,17 +15,14 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
   "rebelot/kanagawa.nvim",
   "nvim-treesitter/nvim-treesitter",
-  'christoomey/vim-tmux-navigator',
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-nvim-lsp",
-  "fatih/vim-go",
-  "kylechui/nvim-surround",
   "sbdchd/neoformat",
   "lukas-reineke/indent-blankline.nvim",
-  "L3MON4DE/LuaSnip",
+  "L3MON4D3/LuaSnip",
   {
     "rust-lang/rust.vim",
     ft = "rust",
