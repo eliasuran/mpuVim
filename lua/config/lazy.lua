@@ -20,7 +20,6 @@ local plugins = {
   "neovim/nvim-lspconfig",
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-nvim-lsp",
-  "sbdchd/neoformat",
   "lukas-reineke/indent-blankline.nvim",
   "L3MON4D3/LuaSnip",
   {

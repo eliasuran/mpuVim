@@ -72,6 +72,10 @@ require("lspconfig").cssls.setup({
   capabilities = capabilities
 })
 
+require("lspconfig").jsonls.setup({
+  capabilities = capabilities
+})
+
 -- Mappings
 
 vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })

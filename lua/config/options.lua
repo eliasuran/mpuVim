@@ -28,7 +28,6 @@ vim.opt.updatetime = 50
 vim.o.timeout = true
 vim.o.timeoutlen = 300
 
-vim.g.neoformat_try_node_exe = 1
 vim.g.vim_svelte_plugin_use_typescript = 1
 
 vim.opt.colorcolumn = "79"
