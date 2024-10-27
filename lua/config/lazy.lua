@@ -13,7 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  "rebelot/kanagawa.nvim",
+  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...}, -- theme
   "nvim-treesitter/nvim-treesitter",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
