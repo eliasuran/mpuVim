@@ -8,7 +8,7 @@ require("mason-lspconfig").setup({
     'tailwindcss',
     'volar',
     'svelte',
-    'tsserver',
+    'ts_ls',
     'gopls',
     'emmet_ls',
     'astro',
@@ -52,7 +52,7 @@ require("lspconfig").svelte.setup({
    capabilities = capabilities,
 })
 
-require("lspconfig").tsserver.setup({
+require("lspconfig").ts_ls.setup({
    capabilities = capabilities,
 })
 
